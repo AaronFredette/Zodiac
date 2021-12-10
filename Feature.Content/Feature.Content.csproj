@@ -275,13 +275,14 @@
       <HintPath>..\packages\WebMarkupMin.Core.2.5.6\lib\net45\WebMarkupMin.Core.dll</HintPath>
     </Reference>
     <Reference Include="WebMarkupMin.Mvc, Version=1.1.0.0, Culture=neutral, PublicKeyToken=99472178d266584b, processorArchitecture=MSIL">
-      <HintPath>..\packages\WebMarkupMin.Mvc.1.1.0\lib\net40\WebMarkupMin.Mvc.dll</HintPath>
+      <HintPath>..\packages\WebMarkupMin.Mvc.1.1.0.1\lib\net40\WebMarkupMin.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="WebMarkupMin.Web, Version=1.1.1.0, Culture=neutral, PublicKeyToken=99472178d266584b, processorArchitecture=MSIL">
-      <HintPath>..\packages\WebMarkupMin.Web.1.1.1\lib\net40\WebMarkupMin.Web.dll</HintPath>
+      <HintPath>..\packages\WebMarkupMin.Web.1.1.1.1\lib\net40\WebMarkupMin.Web.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="Controllers\CodeBlockController.cs" />
     <Compile Include="Controllers\ContentSectionController.cs" />
     <Compile Include="Controllers\ContextContentController.cs" />
@@ -295,14 +296,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="App_Config\Include\Foundation\Constellation.Foundation.Caching.config" />
     <None Include="App_Config\Include\Foundation\Constellation.Foundation.Labels.config" />
+    <None Include="App_Config\Include\Foundation\Constellation.Foundation.ModelMapper.config" />
+    <None Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.config" />
+    <None Include="App_Config\Include\Foundation\Constellation.Foundation.Mvc.Patterns.config" />
+    <None Include="App_Config\Include\Foundation\Constellation.Foundation.PackageVerification.config.example" />
+    <None Include="App_Config\Include\Foundation\Constellation.Foundation.UrlFriendlyPageNames.config" />
     <None Include="App_Data\packages\Constellation-Foundation-Labels-10.1.zip" />
+    <None Include="App_Data\packages\Constellation-Foundation-UrlFriendlyPageNames-10.1.zip" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\packages\PutPackagesHere.txt" />
     <Content Include="Constellation.License.txt" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
