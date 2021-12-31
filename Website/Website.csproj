@@ -661,7 +661,7 @@
     <Content Include="App_Config\DefaultSettingOverrides\Change.MediaSettings.config" />
     <Content Include="App_Config\DefaultSettingOverrides\Enable.Publishing.Accelerators.config" />
     <Content Include="App_Config\DefaultSettingOverrides\Change.PublishingSettings.config" />
-    <None Include="App_Config\Include\Project\ProjectName\ProjectName.Site.config.example" />
+    <Content Include="App_Config\Include\Project\ZodiacPrime\ZodiacPrime.Site.config" />
     <Content Include="App_Config\DefaultSettingOverrides\Change.QueryMaxItems.config" />
     <Content Include="App_Config\DefaultSettingOverrides\Change.SmallCacheSize.config.disable" />
     <Content Include="App_Config\DefaultSettingOverrides\Disable.TrackingEnabled.local.config" />
@@ -715,6 +715,7 @@
     <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-SitemapXml-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Foundation-Labels-10.1.zip" />
+    <Content Include="layouts\ZPMainLayout.cshtml" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Web.Debug.config">

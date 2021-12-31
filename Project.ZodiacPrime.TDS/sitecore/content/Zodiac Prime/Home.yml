@@ -1,0 +1,24 @@
+---
+ID: "77a63595-71e2-4312-ae8c-e54256c2416b"
+Parent: "3a76a944-02d2-4cf8-b117-954a6ec4256a"
+Template: "b6816a60-1c5f-4045-ad4d-d6a1115e70a0"
+Path: /sitecore/content/Zodiac Prime/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211231T155130Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca687403-5e00-4db0-9104-224b1f97438f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211231T155130Z

@@ -1,0 +1,37 @@
+---
+ID: "b4f71045-5d5f-4a78-8158-59db4f13439b"
+Parent: "d4e64427-f5fc-426c-9ae9-7fbd939be1c4"
+Template: "25ccd301-4685-406a-b3b4-4e3a7d133d51"
+Path: /sitecore/content/Zodiac Prime/Navigation/Header
+DB: master
+BranchID: "39c7c993-d6fa-4001-985c-fbc4f453d4dd"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2F41C2A1-4D46-4B37-BCEB-0D581EE3B00D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211231T151704Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ac431122-49ad-46ea-baa5-a53ac68543f3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211231T151704Z
