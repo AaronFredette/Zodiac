@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
   Hint: Path
-  Value: /layouts/ZPMainLayout.cshtml
+  Value: /Areas/ZodiacPrime/Views/Shared/Layouts/ZPMainLayout.cshtml
 Languages:
 - Language: en
   Versions:
@@ -18,11 +18,11 @@ Languages:
       Value: 20211231T152754Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "47192f15-f520-4b11-9722-b98bf7994777"
+      Value: "4816fdf7-340b-4771-8110-4aed21e1ee50"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20211231T155026Z
+      Value: 20211231T172028Z
