@@ -715,7 +715,7 @@
     <Content Include="App_Data\packages\Constellation-Feature-Redirects-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Feature-PageTagging-SitemapXml-Items.zip" />
     <Content Include="App_Data\packages\Constellation-Foundation-Labels-10.1.zip" />
-    <Content Include="layouts\ZPMainLayout.cshtml" />
+    <Content Include="Areas\ZodiacPrime\Views\Shared\Layouts\ZPMainLayout.cshtml" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Web.Debug.config">
