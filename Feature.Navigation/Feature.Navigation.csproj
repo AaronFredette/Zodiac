@@ -286,6 +286,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
+    <Compile Include="Controllers\BreadcrumbController.cs" />
     <Compile Include="Controllers\PrimaryNavigationController.cs" />
     <Compile Include="Controllers\SectionCardsController.cs" />
     <Compile Include="Controllers\SectionNavigationController.cs" />

@@ -1,16 +1,16 @@
 ---
-ID: "6db5d286-8def-487a-983f-d8bd4864160d"
-Parent: "b6816a60-1c5f-4045-ad4d-d6a1115e70a0"
-Template: "b6816a60-1c5f-4045-ad4d-d6a1115e70a0"
-Path: /sitecore/templates/Project/Zodiac Prime/Zodiac Prime Home Page/__Standard Values
+ID: "47b553b5-cf4b-4912-8995-e69fc80faa40"
+Parent: "ef14ec49-0508-428d-999f-580be0bb8e9c"
+Template: "ef14ec49-0508-428d-999f-580be0bb8e9c"
+Path: /sitecore/templates/Project/Zodiac Prime/Landing Page/__Standard Values
 DB: master
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Type: TreelistEx
   Value: |
-    {EF14EC49-0508-428D-999F-580BE0BB8E9C}
     {24D387A7-C5F0-44DB-904E-E92A265BA550}
+    {EF14EC49-0508-428D-999F-580BE0BB8E9C}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -18,7 +18,16 @@ SharedFields:
     <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-        l="{B0FB18A5-D042-4830-9F03-C8872381EE1A}" />
+        l="{A3CEE44D-85F5-4482-8736-464567EB76FC}">
+        <r
+          id="{A9170E9D-5CA0-4453-95E4-C1AEFE45A2A4}"
+          ph="Breadcrumbs"
+          uid="{7BB30F29-535C-414C-BAD1-D4669F079E0D}" />
+        <r
+          id="{AF09E3A3-C076-4B56-A2B0-10C00E1CDFE6}"
+          ph="SectionNavigation"
+          uid="{77CB4B8E-A78B-4A04-9BA4-151EFBA4E5B4}" />
+      </d>
     </r>
 Languages:
 - Language: en
@@ -27,7 +36,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20211231T155050Z
+      Value: 20220104T151442Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -38,11 +47,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3706d488-ddeb-4124-accf-8a246aab8b6b"
+      Value: "b45c3376-148a-4724-b4e8-720acc99856f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220104T151527Z
+      Value: 20220104T155943Z

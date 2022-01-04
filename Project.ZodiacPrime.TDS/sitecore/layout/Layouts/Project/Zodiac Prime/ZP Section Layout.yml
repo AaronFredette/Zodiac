@@ -1,0 +1,28 @@
+---
+ID: "a3cee44d-85f5-4482-8736-464567eb76fc"
+Parent: "7dd34f8c-a753-4050-91f8-b85f37aeed0f"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Project/Zodiac Prime/ZP Section Layout
+DB: master
+SharedFields:
+- ID: "a036b2bc-ba04-44f6-a75f-bae6cd242abf"
+  Hint: Path
+  Value: /Areas/ZodiacPrime/Views/Shared/Layouts/ZPSectionNavigation.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211231T152754Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f7b7c6d-6fe7-4e8f-b67c-f03743089075"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220104T155910Z

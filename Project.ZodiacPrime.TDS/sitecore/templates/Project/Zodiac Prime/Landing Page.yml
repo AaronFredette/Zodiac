@@ -1,0 +1,46 @@
+---
+ID: "ef14ec49-0508-428d-999f-580be0bb8e9c"
+Parent: "51d4af57-4230-4b5f-bb19-b1bbc4822ba6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Zodiac Prime/Landing Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_pinned.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {E269FBB5-3750-427A-9149-7AA950B49301}
+    {24D387A7-C5F0-44DB-904E-E92A265BA550}
+    {EF14EC49-0508-428D-999F-580BE0BB8E9C}
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {32D86944-A559-4313-8D5D-5867EA246DF5}
+    {B83F10F1-6F84-49E2-A807-856B6FF6C10A}
+    {1E8EF1B7-3785-4EAC-BCBB-51E0D3A881DA}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{47B553B5-CF4B-4912-8995-E69FC80FAA40}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220104T150637Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ba9081a-0a97-4fc5-b589-360d00575bb5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220104T151442Z
