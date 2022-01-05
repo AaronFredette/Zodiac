@@ -1,0 +1,52 @@
+﻿@using Constellation.Feature.Navigation.Models
+@inherits Constellation.Foundation.Mvc.EditorCompatibleView<Constellation.Feature.Navigation.Models.NavigationMenu>
+
+
+@*
+	This View is returned when the user is on the Zodiac Manual website. It is an override of the default Primary Navigation view in the 
+	Feature's MVC Area.
+*@
+
+<div class="collapse navbar-collapse" id="primaryNavigation">
+    <ul class="navbar-nav mr-auto">
+        @{
+            foreach (var node in Model.Children)
+            {
+                if (node is NavigationLink link)
+                {
+
+                    if (link.IsActive)
+                    {
+                        <li class="nav-item active"><a class="nav-link" href="@link.LinkUrl">@link.GetBestLinkText() <span class="sr-only">(current)</span></a></li>
+						
+                    }
+                    else
+                    {
+                        <li class="nav-item"><a class="nav-link" href="@link.LinkUrl">@link.GetBestLinkText()</a></li>
+                    }
+                    continue;
+                }
+                if (node is LinkGroup group)
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">@group.DisplayName</a>
+                        <div class="dropdown-menu">
+                            @foreach (var child in group.Children)
+                            {
+                                if (child is NavigationLink childLink)
+                                {
+                                    <a class="dropdown-item" href="@childLink.LinkUrl">@childLink.GetBestLinkText()</a>
+                                    continue;
+                                }
+                                if (child is LinkGroup)
+                                {
+                                    <div class="dropdown-divider"></div>
+                                }
+                            }
+                        </div>
+                    </li>
+                }
+            }
+        }
+    </ul>
+</div>
