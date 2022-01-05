@@ -722,6 +722,7 @@
     <Content Include="Areas\ZodiacPrime\Views\Navigation\Breadcrumb.cshtml" />
     <Content Include="Areas\ZodiacPrime\Views\Navigation\SectionNavigation.cshtml" />
     <Content Include="Areas\ZodiacPrime\Views\Shared\Layouts\ZPSectionNavigation.cshtml" />
+    <Content Include="Areas\ZodiacPrime\Views\Navigation\PrimaryNavigation.cshtml" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Debug.pubxml" />
     <None Include="Web.Debug.config">
