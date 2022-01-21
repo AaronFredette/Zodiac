@@ -24,14 +24,19 @@ placeholders:
           alt: Sitecore Logo
   jss-footer:
     - componentName: GlobalFooter
+      fields: 
+          heading: Learn More About Zodiac
       placeholders:
         footer-col1:
-        - componentName: ContentBlock
+        - componentName: TitledLinkList
           fields:
             heading: Content Block Col1
-            content: Content here
+            contentLinks: 
+              - id: zodiac-linked-page-1
         footer-col2:
-        - componentName: ContentBlock
+        - componentName: TitledLinkList
           fields:
-            heading: Content Block Col2
-            content: Content here for col2
+            heading: Two Pieces Of Content
+            contentLinks: 
+              - id: zodiac-linked-page-1
+              - id: zodiac-home

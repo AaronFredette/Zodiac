@@ -1,0 +1,6 @@
+id: zodiac-linked-page-1
+displayName: Zodiac Example Page
+# Template defines the available fields. See /sitecore/definitions/templates/Styleguide-ContentList-Template.sitecore.js
+template: Zodiac-BasePage-Template
+fields:
+  pageTitle: ContentList Demo (Shared) Item 1 Text Field
