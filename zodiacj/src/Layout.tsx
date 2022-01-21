@@ -10,6 +10,7 @@ import {
   getPublicUrl,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { StyleguideSitecoreContextValue } from 'lib/component-props';
+import GlobalFooter from 'sitecore/definitions/components/zodiac/GlobalFooter.sitecore';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
@@ -78,6 +79,8 @@ const Layout = ({ sitecoreContext: { route } }: LayoutProps): JSX.Element => {
       <div className="container">
         <Placeholder name="jss-main" rendering={route} />
       </div>
+      
+      <Placeholder name="jss-footer" rendering={route}/>
     </>
   );
 };

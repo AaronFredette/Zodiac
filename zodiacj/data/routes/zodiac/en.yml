@@ -22,3 +22,16 @@ placeholders:
         image:
           src: /data/media/img/sc_logo.png
           alt: Sitecore Logo
+  jss-footer:
+    - componentName: GlobalFooter
+      placeholders:
+        footer-col1:
+        - componentName: ContentBlock
+          fields:
+            heading: Content Block Col1
+            content: Content here
+        footer-col2:
+        - componentName: ContentBlock
+          fields:
+            heading: Content Block Col2
+            content: Content here for col2

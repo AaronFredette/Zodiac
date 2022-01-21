@@ -20,9 +20,9 @@ import chalk from 'chalk';
 import generateComponentSrc from './templates/component-src';
 import generateComponentManifest from './templates/component-manifest';
 
-const componentManifestDefinitionsPath = 'sitecore/definitions/components';
+const componentManifestDefinitionsPath = 'sitecore/definitions/components/zodiac';
 
-const componentRootPath = 'src/components';
+const componentRootPath = 'src/components/zodiac';
 
 // Matches component names that start with a capital letter, and contain only letters, number,
 // underscores, or dashes. Optionally, the component name can be preceded by a relative path
